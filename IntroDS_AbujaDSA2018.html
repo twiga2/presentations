@@ -11914,7 +11914,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Introduction-to-Data-Science">Introduction to Data Science<a class="anchor-link" href="#Introduction-to-Data-Science">&#182;</a></h1><h3 id="End-to-end-Data-Science">End to end Data Science<a class="anchor-link" href="#End-to-end-Data-Science">&#182;</a></h3><h4 id="Dina-Machuve">Dina Machuve<a class="anchor-link" href="#Dina-Machuve">&#182;</a></h4><h4 id="12th-November,-2018">12th November, 2018<a class="anchor-link" href="#12th-November,-2018">&#182;</a></h4>
+<h1 id="Introduction-to-Data-Science">Introduction to Data Science<a class="anchor-link" href="#Introduction-to-Data-Science">&#182;</a></h1><h3 id="End-to-end-Data-Science">End to end Data Science<a class="anchor-link" href="#End-to-end-Data-Science">&#182;</a></h3><h4 id="Dina-Machuve"><a href="https://twiga2.github.io/dmachuve/">Dina Machuve</a><a class="anchor-link" href="#Dina-Machuve">&#182;</a></h4><h4 id="12th-November,-2018">12th November, 2018<a class="anchor-link" href="#12th-November,-2018">&#182;</a></h4>
 </div>
 </div>
 </div></section></section><section><section>
@@ -12161,7 +12161,61 @@ by happenstance, and we try and extract value from it later. <strong>Neil Lawren
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Descriptive-Statistics">Descriptive Statistics<a class="anchor-link" href="#Descriptive-Statistics">&#182;</a></h3>
+<h3 id="Descriptive-Statistics-Example">Descriptive Statistics Example<a class="anchor-link" href="#Descriptive-Statistics-Example">&#182;</a></h3><h4 id="Data-from-a-cabbage-field-trial---Head-Weight-variable">Data from a cabbage field trial - Head Weight variable<a class="anchor-link" href="#Data-from-a-cabbage-field-trial---Head-Weight-variable">&#182;</a></h4><table>
+<thead><tr>
+<th>Min.</th>
+<th>1st Qu.</th>
+<th>Median</th>
+<th>Mean</th>
+<th>3rd Qu.</th>
+<th>Max.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>  1.000</td>
+<td>1.875</td>
+<td>2.550</td>
+<td>2.593</td>
+<td>3.125</td>
+<td>4.300</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><img src="figs/headWtSummary.png" alt="histboxHeadWt"></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Descriptive-Statistics-Example">Descriptive Statistics Example<a class="anchor-link" href="#Descriptive-Statistics-Example">&#182;</a></h3><h4 id="Data-from-a-cabbage-field-trial---Vitamin-C-content-variable">Data from a cabbage field trial - Vitamin C content variable<a class="anchor-link" href="#Data-from-a-cabbage-field-trial---Vitamin-C-content-variable">&#182;</a></h4><table>
+<thead><tr>
+<th>Min.</th>
+<th>1st Qu.</th>
+<th>Median</th>
+<th>Mean</th>
+<th>3rd Qu.</th>
+<th>Max.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> 41.00</td>
+<td>50.75</td>
+<td>56.00</td>
+<td>57.95</td>
+<td>66.25</td>
+<td>84.00</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><img src="figs/vitCsummary.png" alt="histboxVitC"></p>
+
 </div>
 </div>
 </div></section></section><section><section>
@@ -12307,7 +12361,57 @@ by happenstance, and we try and extract value from it later. <strong>Neil Lawren
 
 </div>
 </div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Data-Science-Products-Requisites">Data Science Products Requisites<a class="anchor-link" href="#Data-Science-Products-Requisites">&#182;</a></h2><ol>
+<li><p>Robust: the testing error has to be consistent with the training error, or the performance is stable after adding some noise to the dataset.</p>
+</li>
+<li><p>Reproducible: the only way to confirm scientific findings are accurate and not the artifact of a single experiment or analysis</p>
+</li>
+</ol>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Recommendations-to-achieve-Robustness">Recommendations to achieve Robustness<a class="anchor-link" href="#Recommendations-to-achieve-Robustness">&#182;</a></h3><ol>
+<li><p>Good experimental design</p>
+<p><em>To consult the statisticians after an experiment is finished is often merely to ask him to conduct a post-mortem examination. He can perhaps say what the experiment died of.</em> <strong>R.A. Fisher</strong></p>
+</li>
+<li><p>Write code as cleverly as possible: simple, clear code makes debugging easier.</p>
+</li>
+<li>Automate tasks, it decreases trivial mistakes by humans.</li>
+<li>Make assertions in code and in your methods</li>
+<li>Test code</li>
+<li>Use existing libraries whenever possible</li>
+<li>Let data prove that it's high quality, e.g. using EDA</li>
+<li>Treat data as Read-Only</li>
+<li>Develop frequently used scripts into tools</li>
+</ol>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Recommendations-for-Reproducible-Projects">Recommendations for Reproducible Projects<a class="anchor-link" href="#Recommendations-for-Reproducible-Projects">&#182;</a></h3><ol>
+<li>Release your code and data</li>
+<li>Document everything</li>
+<li>Make figures and statistics the results of scripts</li>
+<li>Use code as documentation</li>
+</ol>
+
+</div>
+</div>
+</div></section></section>
 </div>
 </div>
 

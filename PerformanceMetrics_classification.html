@@ -13202,8 +13202,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Performance-Metrics-in-Classification-Problem">Performance Metrics in Classification Problem<a class="anchor-link" href="#Performance-Metrics-in-Classification-Problem">&#182;</a></h2><p>compiled by Dina Machuve</p>
-<p>18th April, 2020</p>
+<h1 id="Performance-Metrics-in-Classification-Problem">Performance Metrics in Classification Problem<a class="anchor-link" href="#Performance-Metrics-in-Classification-Problem">&#182;</a></h1><h4 id="Dina-Machuve">Dina Machuve<a class="anchor-link" href="#Dina-Machuve">&#182;</a></h4><p>18th April, 2020</p>
 
 </div>
 </div>
@@ -13380,16 +13379,18 @@ $$Confusion \ matrix = actual \left\{\overbrace{
     FN &amp; TP
 \end{bmatrix} \quad = \quad \begin{bmatrix} 49130 &amp; 5019 \\ 1308 &amp; 4543 \end{bmatrix}$</p>
 <ul>
-<li><p>Number of samples:  $n = TP + TN + FP + FN \</p>
-
-<pre><code>                   = 4543 + 49130 + 5019 + 1308 = 60000$</code></pre>
-</li>
+<li>Number of samples: </li>
+</ul>
+<p>$n = TP + TN + FP + FN \\
+               =  4543 + 49130 + 5019 + 1308 \\
+               =  60000$</p>
+<ul>
 <li><p><strong>Accuracy</strong>:
 In general how often is the classifier correct? $\Rightarrow \frac{(TP + TN)}{n} \\
 = \frac{(4543 + 49130)}{60000} = 0.89455$</p>
 </li>
 <li><p><strong>Misclassification Rate (Error Rate)</strong>:
-How often is the model wrong $\Rightarrow \frac{(FP + FN)}{n} \\
+How often is the model wrong? $\Rightarrow \frac{(FP + FN)}{n} \\
 =\frac{(5019 + 1308)}{60000} = 0.10545$</p>
 </li>
 </ul>
@@ -13401,27 +13402,25 @@ How often is the model wrong $\Rightarrow \frac{(FP + FN)}{n} \\
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li><p><strong>Precision</strong>:
-When the model predicts "yes", how often is it correct? 
-\begin{align} 
-   \mathbf{Precision} &amp; = \frac{TP}{(TP + FP)} \</p>
-
-<pre><code>        &amp; =  \frac{4543}{(4543 + 5019)} \\
-        &amp; = 0.47511
-</code></pre>
-<p>\end{align}</p>
-</li>
-<li><p><strong>Recall (True Positive Rate)</strong>:
-How often the model predicts yes, when it's "actually yes" 
-\begin{align} \mathbf{Recall} &amp; = \frac{TP}{(TP + FN)} \</p>
-
-<pre><code>        &amp; =  \frac{4543}{(4543 + 1308)} \\
-        &amp; = 0.77645
-</code></pre>
-<p>\end{align}</p>
-</li>
+<li><strong>Precision</strong>:
+When the model predicts "yes", how often is it correct? </li>
 </ul>
-
+$$
+\begin{align*} 
+     \mathbf{Precision}  =&amp; \frac{TP}{(TP + FP)} \\
+               =&amp;  \frac{4543}{(4543 + 5019)} \\
+               =&amp; 0.47511
+  \end{align*} 
+$$<ul>
+<li><strong>Recall (True Positive Rate)</strong>:
+How often the model predicts yes, when it's "actually yes" </li>
+</ul>
+$$
+\begin{align*} \mathbf{Recall}  =&amp; \frac{TP}{(TP + FN)} \\
+               =&amp;  \frac{4543}{(4543 + 1308)} \\
+               =&amp; 0.77645
+   \end{align*} 
+$$
 </div>
 </div>
 </div></section></section><section><section>
